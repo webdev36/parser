@@ -1,0 +1,13 @@
+<h1>H1#index</h1>
+<h2>H2#index</h2>
+<h3>H3#index</h3>
+<p>Find me in app/views/home/index.html.erb</p>
+<%= link_to 'home', root_path %>
+
+
+<% TagDatum.all.each do |tag| %>
+  <p>
+    tag: <%= tag.tag %>
+    content: <%= tag.content %>
+  </p>
+<% end %>

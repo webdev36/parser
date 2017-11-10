@@ -1,0 +1,2 @@
+class TagDatum < ApplicationRecord
+end
